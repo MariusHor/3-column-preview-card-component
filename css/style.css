@@ -102,10 +102,13 @@ select {
   }
 }
 
+/*-----------------------------------*\
+ * #BASE
+\*-----------------------------------*/
+
 body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
-    font-weight: var(--fw-400);
     background: var(--clr-very-light-gray);
     color: var(--clr-tranparent-white);
 }
@@ -115,8 +118,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8rem 0;
+  padding: 8rem 1rem;
 }
+
+/*-----------------------------------*\
+ * #COMPONENT
+\*-----------------------------------*/
 
 .card {
   max-width: 33.5rem;
@@ -125,6 +132,8 @@ body {
 }
 
 .section {
+  display: flex;
+  flex-direction: column;
   padding: 5rem;
 }
 
@@ -146,22 +155,51 @@ body {
   text-transform: uppercase;
   font-weight: var(--fw-700);
   color: var(--clr-very-light-gray);
-  margin: 2.3rem 0;
+  margin-top: 2.5rem;
+}
+
+.section__details {
+  margin-top: 1.5rem;
+  margin-bottom: auto;
 }
 
 .section__link {
   font-size: 1.4rem;
-  display: block;
-  background: var(--clr-very-light-gray);
-  border-radius: 2.5rem;
-  padding: 1.1rem 3rem;
+  font-weight: var(--fw-700);
   text-decoration: none;
   color: #000;
   mix-blend-mode: screen;
-  font-weight: var(--fw-700);
+  background: var(--clr-very-light-gray);
+  border: solid var(--clr-very-light-gray) 0.2rem;
+  border-radius: 2.5rem;
+  padding: 1.1rem 3rem;
+  margin-top: 3rem;
   width: fit-content;
 }
 
-.section__details {
-  margin-bottom: 3rem;
+.section__link:hover {
+  color: #fff;
+  border: solid #fff 0.2rem;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+}
+
+/*-----------------------------------*\
+ * #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media only screen and (min-width: 48rem) {
+  .card {
+    max-width: 95rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section {
+    padding: 5.1rem;
+  }
+
+  .section__link {
+    margin-top: 8rem;
+  }
 }

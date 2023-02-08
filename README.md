@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]: (https://www.frontendmentor.io/solutions/3column-preview-card-component-with-flexbox-and-bem-SJ0dFAtHq)
-- [Live Site URL]: (https://mariushor.github.io/3-column-preview-card-component/)
+- [Solution URL] (https://www.frontendmentor.io/solutions/3column-preview-card-component-with-flexbox-and-bem-SJ0dFAtHq)
+- [Live Site URL] (https://mariushor.github.io/3-column-preview-card-component/)
 
 ## My process
 

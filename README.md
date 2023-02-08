@@ -70,4 +70,4 @@ In this project I have learned how to make a transparent background as well as t
 ```
 ## Author
 
-- Frontend Mentor - (https://www.frontendmentor.io/profile/MariusHor)
+- Frontend Mentor - [@MariusHor](https://www.frontendmentor.io/profile/MariusHor)
